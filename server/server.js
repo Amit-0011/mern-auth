@@ -17,6 +17,7 @@ const allowedOrigins = [
   'https://mern-auth-sv2h.vercel.app'
 ];
 
+
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({origin: allowedOrigins, credentials: true }));
